@@ -1,0 +1,99 @@
+
+/* Test styles for share tools */ 
+/* via Snappy Snippet */
+
+
+.custom-share-container {
+	background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+    height: 29px;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    width: 196px;
+    perspective-origin: 248.25px 14.5px;
+    transform-origin: 248.25px 14.5px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 16px/normal nyt-cheltenham, georgia, 'times new roman', times, serif;
+    margin: 20px auto 0px auto;
+    padding: 48px;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+.custom-share {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 25px;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    width: 25%;
+    perspective-origin: 12.5px 12.5px;
+    transform-origin: 12.5px 12.5px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 16px/normal nyt-cheltenham, georgia, 'times new roman', times, serif;
+    margin: 0px 0px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+.custom-share.twitter span {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    width: 100%;
+    perspective-origin: 12.5px 12.5px;
+    transform-origin: 12.5px 12.5px;
+    background: rgba(0, 0, 0, 0) url(http://graphics8.nytimes.com/newsgraphics/2014/05/12/summer-drinks/4618c05b9a0ec715f455b3c1f5d85c959c11a129/smithsprite.png) no-repeat scroll 0% 0% / 40px 380px padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 16px/normal nyt-cheltenham, georgia, 'times new roman', times, serif;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+.custom-share.facebook span {
+    background-position: 0px -40px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    width: 100%;
+    perspective-origin: 12.5px 12.5px;
+    transform-origin: 12.5px 12.5px;
+    background: rgba(0, 0, 0, 0) url(http://graphics8.nytimes.com/newsgraphics/2014/05/12/summer-drinks/4618c05b9a0ec715f455b3c1f5d85c959c11a129/smithsprite.png) no-repeat scroll 0px -40px / 40px 380px padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 16px/normal nyt-cheltenham, georgia, 'times new roman', times, serif;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+.custom-share.pinterest span {
+    background-position: 0px -80px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    width: 100%;
+    perspective-origin: 12.5px 12.5px;
+    transform-origin: 12.5px 12.5px;
+    background: rgba(0, 0, 0, 0) url(http://graphics8.nytimes.com/newsgraphics/2014/05/12/summer-drinks/4618c05b9a0ec715f455b3c1f5d85c959c11a129/smithsprite.png) no-repeat scroll 0px -80px / 40px 380px padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 16px/normal nyt-cheltenham, georgia, 'times new roman', times, serif;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+.custom-share.email span {
+    background-position: 0px -120px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    width: 100%;
+    perspective-origin: 12.5px 12.5px;
+    transform-origin: 12.5px 12.5px;
+    background: rgba(0, 0, 0, 0) url(http://graphics8.nytimes.com/newsgraphics/2014/05/12/summer-drinks/4618c05b9a0ec715f455b3c1f5d85c959c11a129/smithsprite.png) no-repeat scroll 0px -120px / 40px 380px padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 16px/normal nyt-cheltenham, georgia, 'times new roman', times, serif;
+    outline: rgb(255, 255, 255) none 0px;
+}
+

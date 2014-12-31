@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Braggart.js | Custom Share Tools</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/braggart.css">
+  </head>
+  <body>
+    <div class="custom-share-container one" data-cs-image="http://graphics8.nytimes.com/images/2014/05/21/dining/21DRINKS_SPAN/21DRINKS_SPAN-custom1.jpg" data-cs-url="http://www.nytimes.com">
+      <div class="custom-share twitter" data-cs-text="1.1: Twitter Style" data-cs-url="http://google.com">
+        <span class="cs-icon"></span>
+      </div>
+      <div class="custom-share facebook" data-cs-text="1.2: Facebook Style">
+        <span class="cs-icon"></span>
+      </div>
+      <div class="custom-share pinterest" data-cs-text="1.3: Pinterest Style" data-cs-image="http://static01.nyt.com/images/2014/11/23/realestate/23COV1/23COV1-largeHorizontal375.jpg">
+        <span class="cs-icon"></span>
+      </div>
+      <div class="custom-share email" data-cs-text="1.4: Email Style">
+        <span class="cs-icon"></span>
+      </div>
+    </div>
+
+    <div id="DIV_1" class="custom-share-container two" data-cs-image="http://graphics8.nytimes.com/images/2014/05/21/dining/21drinks-promos/21drinks-promos-custom1.jpg" data-cs-url="http://www.nytimes.com">
+      <div class="custom-share twitter" data-cs-text="2.1: Twitter Style" data-cs-url="http://bing.com">
+        <span class="cs-icon"></span>
+      </div>
+      <div class="custom-share facebook" data-cs-text="2.2: Facebook Style">
+        <span class="cs-icon"></span>
+      </div>
+      <div class="custom-share pinterest" data-cs-text="2.3: Pinterest Style" data-cs-image="http://static01.nyt.com/images/2014/11/23/realestate/23COV1/23COV1-largeHorizontal375.jpg">
+        <span class="cs-icon"></span>
+      </div>
+      <div class="custom-share email" data-cs-text="2.4: Email Style">
+        <span class="cs-icon"></span>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!--  CUSTOM SHARE JS  -->
+    <script type="text/javascript" src="js/braggart.js"></script>
+    <script type="text/javascript">
+      $(".custom-share-container").braggart({ 
+        url: "http://google.com",
+        fbAppId: "9869919170", // ** REQUIRED ** App ID from the FB App Dashboard
+        shareText: "I'd like a drink made by The New York Times summer drink generator.",
+        shareImage: "http://graphics8.nytimes.com/images/2014/11/26/dining/26KITCH/26KITCH-mediumThreeByTwo210.jpg"
+      });
+    </script>
+  </body>
+</html>
+
+
